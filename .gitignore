@@ -1,0 +1,59 @@
+# Файлы и директории, генерируемые системой
+.DS_Store
+Thumbs.db
+
+# Системные директории
+.vscode/
+.idea/
+*.iml
+
+# Компилированные файлы Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.bak
+*.swp
+
+# Виртуальные окружения
+venv/
+.venv/
+.env/
+*.env
+
+# Файлы конфигурации и базы данных
+*.sqlite3
+*.db
+
+# Файлы тестирования
+.coverage
+*.cover
+
+# Файлы Jupyter Notebook
+.ipynb_checkpoints
+
+# Файлы настройки контейнеров
+docker-compose.override.yml
+
+# Различные скрытые файлы и каталоги
+*.pid
+*.seed
+*.pid.lock
+
+# Кэш браузеров
+.cache/
+*.cache
+
+# Файлы и каталоги, создаваемые инструментами, такими как build, dist, и т.д.
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# Локальные настройки в Pycharm
+.idea/
